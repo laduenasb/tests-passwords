@@ -1,4 +1,4 @@
-package org.example;
+package org.example.util;
 
 public class PasswordUtil {
 
@@ -20,5 +20,11 @@ public class PasswordUtil {
     }
 
     return SecurityLevel.STRONG;
+  }
+
+  public static class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello world!");
+    }
   }
 }

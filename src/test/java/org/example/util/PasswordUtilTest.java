@@ -1,8 +1,9 @@
-package org.example;
+package org.example.util;
 
+import org.example.util.PasswordUtil;
 import org.junit.jupiter.api.Test;
 
-import static org.example.PasswordUtil.SecurityLevel.*;
+import static org.example.util.PasswordUtil.SecurityLevel.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PasswordUtilTest {
